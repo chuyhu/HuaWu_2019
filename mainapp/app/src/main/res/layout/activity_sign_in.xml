@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_back">
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:background="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.example.mainapp.preview.signin.NbButton
+            android:layout_marginTop="340dp"
+            android:id="@+id/button_singin"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:text="登陆"
+            android:textColor="#000" />
+        <com.example.mainapp.preview.signin.NbButton
+            android:id="@+id/button_signon"
+            android:layout_width="220dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/button_singin"
+            android:layout_marginTop="20dp"
+            android:text="注册"
+            android:textColor="#000" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
